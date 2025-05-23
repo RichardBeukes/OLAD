@@ -21,11 +21,11 @@ To use this site as a theme, copy the contents of this folder into the `wp-conte
 
 - `index.html` – Home page with parallax hero section
 - `about.html` – About page
-- `contact.html` – Contact form (client-side only)
+- `contact.html` – Contact form posting to a simple backend
 - `css/style.css` – Styling including parallax backgrounds
 - `js/main.js` – Simple form interaction
 - `Dockerfile` – Container for serving the site using nginx
 
 ## Note
 
-This is a static demo. Contact form submission needs server-side handling to be fully functional.
+The container now includes a small Python backend to process contact form submissions.
